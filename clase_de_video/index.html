@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload="auto">
+                <source src="./video.mp4#t=10,20">
+                <source src="./video.mv4">    
+            </video>
+            <!--
+                
+controls: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+
+preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+
+src="./video.mp4#t=10,20"  segundo en el cual se inicia a reproducir y en el cual termina  <video src="./video.mp4#t=10,20" controls preload="auto"></video>
+
+La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces, para especificar diferentes rutas. Esto para asegurar que cualquier navegador pueda mostrar el video.
+            -->
+        </section>
+    </main>
+</body>
+</html>
